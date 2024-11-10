@@ -1,21 +1,69 @@
+/* General Styles */
 body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
+    background-color: #f4f4f9;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Header Section */
+header {
+    background-color: #282c34;
+    color: #fff;
+    padding: 20px;
     text-align: center;
 }
-header {
-    background-color: #333;
-    color: #fff;
-    padding: 20px;
+header h1 {
+    margin: 0;
+    font-size: 2em;
 }
+header p {
+    margin: 5px 0;
+    font-size: 1em;
+}
+
+/* Section Styles */
 section {
-    margin: 20px;
     padding: 20px;
-}
-footer {
-    background-color: #333;
-    color: #fff;
-    padding: 10px;
+    max-width: 800px;
+    margin: auto;
+    background-color: #fff;
     margin-top: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+section h2 {
+    font-size: 1.5em;
+    color: #333;
+    border-bottom: 2px solid #4CAF50;
+    padding-bottom: 5px;
+    margin-bottom: 15px;
+}
+section ul {
+    list-style-type: square;
+    padding-left: 20px;
+}
+section ul li {
+    margin-bottom: 10px;
+}
+
+/* Experience Section */
+.experience {
+    margin-bottom: 20px;
+}
+.experience h3 {
+    font-size: 1.2em;
+    color: #4CAF50;
+}
+.experience p {
+    margin: 5px 0;
+}
+
+/* Education & Achievements */
+#education p, #achievements p {
+    font-weight: bold;
+    margin: 10px 0;
+    color: #555;
 }
